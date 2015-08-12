@@ -1,25 +1,29 @@
-# Site settings
 url: http://vogelstpartystaging.github.io
 title: Vogel Street Party
 email: your-email@domain.com
 author: Your Name
 description: Vogel Street Party webste
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
+url: http://brianmaierjr.github.com/long-haul
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-# Footer settings
-footer: Your Website
+markdown: redcarpet
+highlighter: pygments
+paginate: 5
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
 social:
-  - title: twitter
-    url: https://twitter.com/vogelstparty
-  - title: facebook
-    url: https://facebook.com/vogelstreetparty
+   twitter: vogelstparty
+   facebook: vogelstreetparty
+   vogelstreetparty@gmail.com
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+google_analytics: "UA-58263416-1"
