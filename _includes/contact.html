@@ -10,11 +10,11 @@
 					<ul class="list-inline banner-social-buttons">
 						{% for social in site.social %}
 						<li>
-							<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+							<a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.type }} fa-fw"></i> <span class="network-name">{{ social.username }}</span></a>
 						</li>
 						{% endfor %}
 						<li>
-							<a href="mailto:vogelstreetparty@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-email fa-fw"></i> <span class="network-name">email</span></a>
+							<a href="mailto:vogelstreetparty@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">email</span></a>
 						</li>
 					</ul>
 				</div>

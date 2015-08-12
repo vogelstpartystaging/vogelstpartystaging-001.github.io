@@ -21,7 +21,9 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
+  - type: twitter
+  	username: vogelstparty
     url: https://twitter.com/vogelstparty
-  - title: facebook
+  - type: facebook
+  	username: vogelstreetparty
     url: https://facebook.com/vogelstreetparty
