@@ -1,16 +1,12 @@
-
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: Your Awesome Site
+url: http://vogelstpartystaging.github.io
+title: Vogel Street Party
 email: your-email@domain.com
 author: Your Name
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description."
+description: Vogel Street Party webste
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -18,7 +14,6 @@ description: > # "Write an awesome description for your new site here.
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 permalink: pretty
 
 # ----------------------- #
@@ -27,8 +22,6 @@ permalink: pretty
 
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
-    url: 
+    url: https://twitter.com/vogelstparty
+  - title: facebook
+    url: https://facebook.com/vogelstreetparty
