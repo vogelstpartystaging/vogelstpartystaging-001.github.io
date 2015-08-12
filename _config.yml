@@ -1,31 +1,16 @@
-url: http://vogelstpartystaging.github.io
+# Site settings
 title: Vogel Street Party
-email: your-email@domain.com
-author: Your Name
-description: Vogel Street Party webste
-
-url: http://brianmaierjr.github.com/long-haul
+header-img: img/vogel.jpg
+email: your-email@yourdomain.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+url: http://vogelstpartystaging.github.io
+twitter_username: vogelstparty
+facebook_username:  vogelstreetparty
 
-markdown: redcarpet
+# Build settings
+markdown: kramdown
 highlighter: pygments
+permalink: pretty
 paginate: 5
-
-navigation:
- - title: Home
-   url: /index.html
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
- - title: Sponsors
-   url: /sponsors
-
-social:
-   twitter: vogelstparty
-   facebook: vogelstreetparty
-   email: vogelstreetparty@gmail.com
-
-google_analytics: "UA-58263416-1"
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
