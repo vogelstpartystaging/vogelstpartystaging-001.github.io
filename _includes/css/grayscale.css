@@ -148,7 +148,7 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    padding-top: 8%;
 }
 
 .intro .intro-body .brand-heading {
